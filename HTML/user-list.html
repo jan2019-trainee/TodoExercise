@@ -4,39 +4,37 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Todo List</title>
-    <link rel="stylesheet" href="/CCS/index.css" />
-    <link rel="stylesheet" href="/CCS/table.css">
+    <title>User List</title>
+    <link rel="stylesheet" href="/CCS/user-list.css" />
+    <link rel="stylesheet" href="/CCS/table.css" />
   </head>
   <body class="fontface font-size-24">
     <div>
-      <span>Todo List</span>
+      <span>User List</span>
     </div>
     <div class="txt-align-right">
       <input type="text" name="search" id="search" placeholder="Search.." />
-      <a href="./user-list.html"><button class="btn btn-primary">View Users</button></a>
-      <a href="./create-todo.html"></a><button class="btn btn-success ">Create Todo</button>
+      <a href="./index.html"><button class="btn btn-primary">View Todos</button></a>
+      <a href="./create-user.html"></a><button class="btn btn-success ">Create User</button>
     </div>
     <div class="font-size-16">
       <table class="table border-1 txt-align-center">
         <thead>
           <tr class="txt-align-center border-1 bg-gray">
             <th>ID</th>
-            <th>Name</th>
-            <th>Description</th>
-            <th>Status</th>
-            <th>Owner</th>
-            <th>Status</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Occupation</th>
+            <th>Action</th>
           </tr>
         </thead>
 
         <tbody class="border-1">
           <tr>
             <td>1</td>
-            <td>Quest</td>
-            <td>Kill 50 Goblins</td>
-            <td>Unfinished</td>
-            <td><a href="user-details">Cao Cao</a></td>
+            <td>Cao</td>
+            <td>Cao</td>
+            <td>General</td>
             <td>
               <button class="btn btn-update">Update</button>
               <button class="btn btn-delete">Delete</button>
@@ -44,10 +42,9 @@
           </tr>
           <tr>
             <td>2</td>
-            <td>Quest</td>
-            <td>Kill 3 Black Dragons</td>
-            <td>Finished</td>
-            <td><a href="user-details">Scipio</a></td>
+            <td>Scipio</td>
+            <td>Afrinicus</td>
+            <td>Soldier</td>
             <td>
               <button class="btn btn-update">Update</button>
               <button class="btn btn-delete">Delete</button>
@@ -55,10 +52,9 @@
           </tr>
           <tr>
             <td>3</td>
-            <td>Quest</td>
-            <td>Kill 4 Evil Spirits</td>
-            <td>Unfinished</td>
-            <td><a href="user-details">Martel</a></td>
+            <td>Charles</td>
+            <td>Martel</td>
+            <td>Laborer</td>
             <td>
               <button class="btn btn-update">Update</button>
               <button class="btn btn-delete">Delete</button>
@@ -66,10 +62,9 @@
           </tr>
           <tr>
             <td>4</td>
-            <td>Quest</td>
-            <td>Revive the Forest Lord</td>
-            <td>Unfinished</td>
-            <td><a href="user-details">Minamoto</a></td>
+            <td>Minamoto</td>
+            <td>Yaiba</td>
+            <td>Shugon</td>
             <td>
               <button class="btn btn-update">Update</button>
               <button class="btn btn-delete">Delete</button>
@@ -77,21 +72,9 @@
           </tr>
           <tr>
             <td>5</td>
-            <td>Quest</td>
-            <td>Job Upgrade</td>
-            <td>Finished</td>
-            <td><a href="user-details">Alexander</a></td>
-            <td>
-              <button class="btn btn-update">Update</button>
-              <button class="btn btn-delete">Delete</button>
-            </td>
-          </tr>
-          <tr>
-            <td>6</td>
-            <td>Quest</td>
-            <td>Capture Cerberus</td>
-            <td>Finished</td>
-            <td><a href="user-details">Minamoto</a></td>
+            <td>Alexander</td>
+            <td>I</td>
+            <td>Slave</td>
             <td>
               <button class="btn btn-update">Update</button>
               <button class="btn btn-delete">Delete</button>
@@ -99,8 +82,9 @@
           </tr>
         </tbody>
       </table>
-      <div><button>Prev</button> Page 1/2 <button>Next</button></div>
-      
+      <div><button>Prev</button> Page 1/2 <button>Next</button>
+        
+    </div>
     </div>
   </body>
 </html>
