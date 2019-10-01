@@ -14,13 +14,41 @@
   font-size: 24px;
 }
 
-.txt-align-right {
-  text-align: right;
+.grid-container {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr;
+  grid-row-gap: 10px;
+  grid-template-areas:
+    "header header"
+    "leftside rightside";
 }
 
-.btn-update {
-  background-color: #fdc02e;
-  color: #000000;
+.item-header {
+  grid-area: header;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.item-side-a {
+  grid-area: leftside;
+}
+
+.item-side-b {
+  grid-area: rightside;
+}
+
+.bg-color-gray {
+  background-color: #dddddd;
+}
+.bg-color-red {
+  background-color: red;
+}
+
+.bg-color-blue {
+  background-color: blue;
 }
 .btn-delete {
   background-color: #d93749;
@@ -43,15 +71,4 @@
   text-align: center;
   font-size: 14px;
   padding: 8px;
-}
-
-input {
-  padding: 8px;
-  margin: 8px 0;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-}
-.bg-color-gray {
-  background-color: #dddddd;
 }

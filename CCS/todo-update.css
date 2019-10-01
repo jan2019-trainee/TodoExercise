@@ -51,7 +51,15 @@ input {
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
+  width: 100%;
+}
+
+.align-right {
+  text-align: right;
 }
 .bg-color-gray {
   background-color: #dddddd;
+}
+.margin-top-10{
+  margin-top: 10px;
 }

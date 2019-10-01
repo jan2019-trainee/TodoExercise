@@ -14,7 +14,6 @@
   font-size: 24px;
 }
 
-
 .txt-align-right {
   text-align: right;
 }
@@ -28,14 +27,14 @@
   color: #ffffff;
 }
 
-.btn-primary{
-    background-color: #157ffb;
-    color: white;
+.btn-primary {
+  background-color: #157ffb;
+  color: white;
 }
 
-.btn-success{
-    background-color: #30a54a;
-    color: white;
+.btn-success {
+  background-color: #30a54a;
+  color: white;
 }
 
 .btn {
@@ -47,9 +46,13 @@
 }
 
 input {
-    padding: 8px;
-    margin: 8px 0;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-  }
+  padding: 8px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.bg-color-gray {
+  background-color: #dddddd;
+}
