@@ -14,11 +14,30 @@
     </div>
     <div class="txt-align-right">
       <input type="text" name="search" id="search" placeholder="Search.." />
-      <a href="./index.html"><button class="btn btn-primary">View Todos</button></a>
-      <a href="./user-create.html"><button class="btn btn-success ">Create User</button></a>
+      <a href="./index.html"
+        ><button class="btn btn-primary">View Todos</button></a
+      >
+      <a href="./user-create.html"
+        ><button class="btn btn-success ">Create User</button></a
+      >
     </div>
     <div class="font-size-16">
-      <table class="table border-1 txt-align-center">
+      <table class="table border-1 txt-align-center" id="users-table">
+          <thead>
+              <tr class="txt-align-center border-1 bg-gray">
+                <th>ID</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Occupation</th>
+                <!-- <th>No. of Todos</th>
+                <th>Action</th> -->
+              </tr>
+            </thead>
+            <tbody>
+              
+            </tbody>
+      </table>
+      <!-- <table class="table border-1 txt-align-center">
         <thead>
           <tr class="txt-align-center border-1 bg-gray">
             <th>ID</th>
@@ -87,10 +106,9 @@
             </td>
           </tr>
         </tbody>
-      </table>
-      <div><button>Prev</button> Page 1/2 <button>Next</button>
-        
-    </div>
+      </table> -->
+      <div><button>Prev</button> Page 1/2 <button>Next</button></div>
     </div>
   </body>
+  <script src="/JS/users.js"></script>
 </html>
